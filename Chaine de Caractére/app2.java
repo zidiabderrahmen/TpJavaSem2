@@ -8,6 +8,7 @@ public class app2 {
 
         System.out.print("Donner une chaine de caractere : ");
         Ch = sc.nextLine();
+        sc.close();
 
         if(Ch.indexOf(" ") == -1){
             System.out.println("La chaine Ch contient une seule mot donc le premier mot de la chaine est : " + Ch);
