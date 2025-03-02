@@ -10,6 +10,7 @@ public class app1{
 
         System.out.print("Donner une chaine de caractere : ");
         Ch = sc.nextLine();
+        sc.close();
 
         System.out.print("Donner une caractere : ");
         Car = sc.nextLine().charAt(0);
