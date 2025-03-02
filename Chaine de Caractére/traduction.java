@@ -20,10 +20,7 @@ public class traduction {
             System.out.println(Mot1 + " n'existe pas dans " + Text);
         }else{
             Text = Text.replace(Mot1, Mot2);
-
-            System.out.println("Le nauveaux Text est : " + Text);
+            System.out.println("Le nouveaux Text est : " + Text);
         }
-
-
     }
 }
